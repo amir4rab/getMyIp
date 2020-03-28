@@ -17,6 +17,8 @@ body{
   font-weight: bold;
   background: #14ffec;
   text-align: center;
+  position: sticky;
+  top: 0px;
 }
 
 .card{
@@ -58,4 +60,10 @@ body{
 a{
   color: #14ffec;
   text-decoration: none;
+}
+.mapImg{
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0.5em;
 }
