@@ -4,11 +4,15 @@ async function getData(){
     return jData;
 }
 async function getMap(longitude,latitude){
+<<<<<<< HEAD
     let width = window.screen.width > 1280 ? 1280: window.screen.width;
     console.log(`window screen width is ${window.screen.width}
     width is ${width}
     `)
     const data = await fetch(`https://api.mapbox.com/styles/v1/mapbox/dark-v10/static/${longitude},${latitude},10/1280x${width}?access_token=pk.eyJ1IjoiYW1pcjAweCIsImEiOiJjazhiYWc4MHgwOXlzM2RvM2QzaGowanczIn0.5V1QbKuJ02Gtr7AP6YmX-A`);
+=======
+    const data = await fetch(`https://api.mapbox.com/styles/v1/mapbox/dark-v10/static/${longitude},${latitude},13/1280x1280?access_token=pk.eyJ1IjoiYW1pcjAweCIsImEiOiJjazhiYWc4MHgwOXlzM2RvM2QzaGowanczIn0.5V1QbKuJ02Gtr7AP6YmX-A`);
+>>>>>>> ba704a45ad78b28567c9a2f7a71e33eb120d2e51
     const jData = await data;
     console.log(jData);
     return data;
