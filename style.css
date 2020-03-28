@@ -62,8 +62,8 @@ a{
   text-decoration: none;
 }
 .mapImg{
-  max-width: 100%;
-  height: auto;
+  max-width: 100vw;
+  height: 50vh;
   object-fit: cover;
   border-radius: 0.5em;
 }
